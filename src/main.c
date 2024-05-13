@@ -33,7 +33,6 @@ int main(void)
     }
 
     sfRenderWindow_destroy(window);
-    clean_particle_list(&list);
 
     return 0;
 }
