@@ -24,9 +24,4 @@ enum particle_type {
 
 typedef struct particle_s {
     enum particle_type type;
-    sfVector2f vel;
-    sfTexture *texture;
-    sfSprite *sprite;
-    float frame;
-    bool is_alive;
 } particle_t;
